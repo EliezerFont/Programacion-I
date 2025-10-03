@@ -1,0 +1,11 @@
+C:\Users\JoseFont\source\repos\PSC09\PSC09\bin\Debug\PSC09.exe.config
+C:\Users\JoseFont\source\repos\PSC09\PSC09\bin\Debug\PSC09.exe
+C:\Users\JoseFont\source\repos\PSC09\PSC09\bin\Debug\PSC09.pdb
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.csproj.AssemblyReference.cache
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.Properties.Resources.resources
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.csproj.GenerateResource.cache
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.csproj.CoreCompileInputs.cache
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.exe
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.pdb
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.frmVENUSR.resources
+C:\Users\JoseFont\source\repos\PSC09\PSC09\obj\Debug\PSC09.Form1.resources
