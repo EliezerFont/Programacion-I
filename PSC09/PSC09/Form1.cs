@@ -164,7 +164,7 @@ namespace PSC09
             ExisteData = false;
 
             string miQuery =
-                "SELECT IDENTIFICATION, NOMBRE, NOMBRECORTO, CLAVE, POSICION, CORREO, FOTO " +
+                "SELECT IDENTIFICACION, NOMBRE, NOMBRECORTO, CLAVE, POSICION, CORREO, FOTO " +
                 "  FROM USUARIO" +
                 " WHERE NOMBRECORTO = @A1 AND ACTIVO =1";
 
@@ -178,7 +178,7 @@ namespace PSC09
             {
                 ExisteData = true;
 
-                lblIdentifica.Text = dr["IDENTIFICATION"].ToString();
+                lblIdentifica.Text = dr["IDENTIFICACION"].ToString();
                 txtNombre.Text = dr["NOMBRE"].ToString();
                 txtCorreo.Text = dr["CORREO"].ToString();
                 txtPassword.Text = dr["CLAVE"].ToString();
@@ -282,7 +282,7 @@ namespace PSC09
         { 
         byte[] byteArrayImagen = ConvertImage.ImageToByteArray(pictureBox1.Image); 
             
-        string tQuery = "INSERT INTO USUARIO (IDENTIFICACION, NOMBRE, NOMBRECORTO, CLAVE, POSICION, CORREO, FOTO, ACTIVO, SUCURSL) " + " VALUES (@A0, @A1, @A2, @A3, @A4, @A5, @A6, @A7, @A8)"; 
+        string tQuery = "INSERT INTO USUARIO (IDENTIFICACION, NOMBRE, NOMBRECORTO, CLAVE, POSICION, CORREO, FOTO, ACTIVO, SUCURSAL) " + " VALUES (@A0, @A1, @A2, @A3, @A4, @A5, @A6, @A7, @A8)"; 
         
         SqlConnection cxn = new SqlConnection(cnn.db); cxn.Open(); 
         SqlCommand cmd = new SqlCommand(tQuery, cxn); 

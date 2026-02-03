@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\itextsharp\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,12 +52,61 @@
     <Compile Include="Clases\Busco.cs" />
     <Compile Include="Clases\cnn.cs" />
     <Compile Include="Clases\ConvertImage.cs" />
+    <Compile Include="Clases\Item.cs" />
     <Compile Include="Clases\ruta.cs" />
+    <Compile Include="Consultas\frmMVTOCTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmMVTOCTE.designer.cs">
+      <DependentUpon>frmMVTOCTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmRecibos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmRecibos.designer.cs">
+      <DependentUpon>frmRecibos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENART.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENART.Designer.cs">
+      <DependentUpon>frmVENART.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENCTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENCTE.Designer.cs">
+      <DependentUpon>frmVENCTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENFAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENFAT.designer.cs">
+      <DependentUpon>frmVENFAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENSUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENSUC.Designer.cs">
+      <DependentUpon>frmVENSUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENUSCAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENUSCAT.Designer.cs">
+      <DependentUpon>frmVENUSCAT.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\frmVENUSR.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Consultas\frmVENUSR.Designer.cs">
       <DependentUpon>frmVENUSR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmVENUSUBCAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVENUSUBCAT.Designer.cs">
+      <DependentUpon>frmVENUSUBCAT.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -62,13 +114,79 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmFactura.Designer.cs">
+      <DependentUpon>frmFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmProducto.Designer.cs">
+      <DependentUpon>frmProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmStart.Designer.cs">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consultas\frmMVTOCTE.resx">
+      <DependentUpon>frmMVTOCTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmRecibos.resx">
+      <DependentUpon>frmRecibos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENART.resx">
+      <DependentUpon>frmVENART.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENCTE.resx">
+      <DependentUpon>frmVENCTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENFAT.resx">
+      <DependentUpon>frmVENFAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENSUC.resx">
+      <DependentUpon>frmVENSUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENUSCAT.resx">
+      <DependentUpon>frmVENUSCAT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Consultas\frmVENUSR.resx">
       <DependentUpon>frmVENUSR.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVENUSUBCAT.resx">
+      <DependentUpon>frmVENUSUBCAT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmFactura.resx">
+      <DependentUpon>frmFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmProducto.resx">
+      <DependentUpon>frmProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,7 +211,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Formularios\" />
     <Folder Include="Reportes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
